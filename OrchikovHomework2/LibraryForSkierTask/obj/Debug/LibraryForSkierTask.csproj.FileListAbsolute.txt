@@ -1,0 +1,6 @@
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForSkierTask\bin\Debug\LibraryForSkierTask.dll
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForSkierTask\bin\Debug\LibraryForSkierTask.pdb
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForSkierTask\obj\Debug\LibraryForSkierTask.csprojAssemblyReference.cache
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForSkierTask\obj\Debug\LibraryForSkierTask.csproj.CoreCompileInputs.cache
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForSkierTask\obj\Debug\LibraryForSkierTask.dll
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForSkierTask\obj\Debug\LibraryForSkierTask.pdb

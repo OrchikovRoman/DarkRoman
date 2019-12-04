@@ -1,0 +1,10 @@
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\HomeWork1v2.0.exe.config
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\HomeWork1v2.0.exe
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\HomeWork1v2.0.pdb
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.csproj.CoreCompileInputs.cache
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.exe
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.pdb
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\QuadraticEquationLibrary.dll
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\QuadraticEquationLibrary.pdb
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.csprojAssemblyReference.cache
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.csproj.CopyComplete

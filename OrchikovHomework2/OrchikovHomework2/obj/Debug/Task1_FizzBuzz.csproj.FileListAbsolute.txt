@@ -1,0 +1,10 @@
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\bin\Debug\OrchikovHomework2.exe.config
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\bin\Debug\OrchikovHomework2.exe
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\bin\Debug\OrchikovHomework2.pdb
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\obj\Debug\Task1_FizzBuzz.csprojAssemblyReference.cache
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\obj\Debug\Task1_FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\obj\Debug\OrchikovHomework2.exe
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\obj\Debug\OrchikovHomework2.pdb
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\bin\Debug\LibraryForFizzBuzz.dll
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\bin\Debug\LibraryForFizzBuzz.pdb
+C:\Users\Orchikov\source\repos\OrchikovHomework2\OrchikovHomework2\obj\Debug\Task1_FizzBuzz.csproj.CopyComplete

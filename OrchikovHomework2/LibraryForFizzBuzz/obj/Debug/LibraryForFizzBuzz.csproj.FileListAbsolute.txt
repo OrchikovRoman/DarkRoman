@@ -1,0 +1,6 @@
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\bin\Debug\LibraryForFizzBuzz.dll
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\bin\Debug\LibraryForFizzBuzz.pdb
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.dll
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.pdb
+C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.csprojAssemblyReference.cache

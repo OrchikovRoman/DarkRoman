@@ -1,0 +1,6 @@
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\bin\Debug\QuadraticEquationLibrary.dll
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\bin\Debug\QuadraticEquationLibrary.pdb
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.csprojAssemblyReference.cache
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.dll
+C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.pdb

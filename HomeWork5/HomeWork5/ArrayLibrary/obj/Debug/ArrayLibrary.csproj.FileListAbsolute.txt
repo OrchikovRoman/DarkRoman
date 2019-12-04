@@ -1,0 +1,6 @@
+C:\Users\Orchikov\source\repos\HomeWork5\ArrayLibrary\bin\Debug\ArrayLibrary.dll
+C:\Users\Orchikov\source\repos\HomeWork5\ArrayLibrary\bin\Debug\ArrayLibrary.pdb
+C:\Users\Orchikov\source\repos\HomeWork5\ArrayLibrary\obj\Debug\ArrayLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Orchikov\source\repos\HomeWork5\ArrayLibrary\obj\Debug\ArrayLibrary.dll
+C:\Users\Orchikov\source\repos\HomeWork5\ArrayLibrary\obj\Debug\ArrayLibrary.pdb
+C:\Users\Orchikov\source\repos\HomeWork5\ArrayLibrary\obj\Debug\ArrayLibrary.csprojAssemblyReference.cache
