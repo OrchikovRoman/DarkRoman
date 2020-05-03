@@ -4,37 +4,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace LibraryForSkierTask
 {
-
-    public class SolutionSkierTask : IDisposable
+    public class LibraryForSkierTask
     {
-        public void Dispose()
+        public class SolutionSkierTask : IDisposable
         {
-            //we are disposing it
-        }
-
-        public double Solution(double distX, double growthY, double targetZ)
-        {
-            
-            if(growthY==0)
-                return 0;
-
-            if (targetZ <= 0 || growthY <= 0)
-                return 0;
-
-            double sumOfPrevious = 0;
-            double sumOfDays = 1;
-           
-            do
+            public void Dispose()
             {
-                sumOfPrevious = sumOfDays + distX;
-                distX = distX * (1 + (growthY / 100));
-                sumOfDays = sumOfDays + 2;
+                //we are disposing it
             }
-            while (sumOfPrevious < targetZ);
-            return sumOfDays;
+
+            public double Solution(double distX, double growthY, double targetZ)
+            {
+
+                if (growthY == 0)
+                    return 0;
+
+                if (targetZ <= 0 || growthY <= 0)
+                    return 0;
+
+                double sumOfPrevious = 0;
+                double sumOfDays = 1;
+
+                do
+                {
+                    sumOfPrevious = sumOfDays + distX;
+                    distX = distX * (1 + (growthY / 100));
+                    sumOfDays = sumOfDays + 2;
+                }
+                while (sumOfPrevious < targetZ);
+                return sumOfDays;
+            }
         }
     }
 }

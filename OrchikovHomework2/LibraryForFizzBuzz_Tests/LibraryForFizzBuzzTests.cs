@@ -2,7 +2,7 @@
 using LibraryForFizzBuzz;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LibraryForFizzBuzz_Tests
+namespace LibraryForFizzBuzzTests
 {
     [TestClass]
     public class LibraryForFizzBuzzTests

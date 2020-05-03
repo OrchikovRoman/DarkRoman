@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skier", "Skier\Skier.csproj", "{7A32EA98-BD1A-45E1-B655-1F224A47C89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkierLibrary", "SkierLibrary\SkierLibrary.csproj", "{BE766A47-85C9-4E09-9AE6-3057A4ADDB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{0D567BE2-3546-4168-8AE2-DCE56CF7F393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzLibrary", "FizzBuzzLibrary\FizzBuzzLibrary.csproj", "{F195A725-015F-476C-AAC1-59981CC162E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkierLibraryTests", "SkierLibraryTests\SkierLibraryTests.csproj", "{3CFE8D01-5BED-41B7-AFDA-199C8D442806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzLibraryTests", "FizzBuzzLibraryTests\FizzBuzzLibraryTests.csproj", "{330A3E18-6477-4B09-8239-324DCF4F7EA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A32EA98-BD1A-45E1-B655-1F224A47C89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A32EA98-BD1A-45E1-B655-1F224A47C89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A32EA98-BD1A-45E1-B655-1F224A47C89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A32EA98-BD1A-45E1-B655-1F224A47C89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE766A47-85C9-4E09-9AE6-3057A4ADDB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE766A47-85C9-4E09-9AE6-3057A4ADDB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE766A47-85C9-4E09-9AE6-3057A4ADDB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE766A47-85C9-4E09-9AE6-3057A4ADDB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D567BE2-3546-4168-8AE2-DCE56CF7F393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D567BE2-3546-4168-8AE2-DCE56CF7F393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D567BE2-3546-4168-8AE2-DCE56CF7F393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D567BE2-3546-4168-8AE2-DCE56CF7F393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F195A725-015F-476C-AAC1-59981CC162E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F195A725-015F-476C-AAC1-59981CC162E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F195A725-015F-476C-AAC1-59981CC162E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F195A725-015F-476C-AAC1-59981CC162E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFE8D01-5BED-41B7-AFDA-199C8D442806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFE8D01-5BED-41B7-AFDA-199C8D442806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFE8D01-5BED-41B7-AFDA-199C8D442806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFE8D01-5BED-41B7-AFDA-199C8D442806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330A3E18-6477-4B09-8239-324DCF4F7EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330A3E18-6477-4B09-8239-324DCF4F7EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330A3E18-6477-4B09-8239-324DCF4F7EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330A3E18-6477-4B09-8239-324DCF4F7EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90C290BF-6435-40DD-9710-D4FB78872EA6}
+	EndGlobalSection
+EndGlobal

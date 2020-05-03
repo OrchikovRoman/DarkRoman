@@ -9,10 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork1v2.0", "HomeWork1v
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation_Tests", "QuadraticEquation_Tests\QuadraticEquation_Tests.csproj", "{3253EB9D-7519-4DFF-91A6-AC36D73A4B01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RootCalculationTests", "RootCalculationTests\RootCalculationTests.csproj", "{776E6209-B67E-4D1A-B878-B663109C9D57}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckZeroNumbersTests", "CheckZeroNumbersTests\CheckZeroNumbersTests.csproj", "{227E25D5-58C6-4E6F-B363-32B6B118A40A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,14 +27,6 @@ Global
 		{3253EB9D-7519-4DFF-91A6-AC36D73A4B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3253EB9D-7519-4DFF-91A6-AC36D73A4B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3253EB9D-7519-4DFF-91A6-AC36D73A4B01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{776E6209-B67E-4D1A-B878-B663109C9D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{776E6209-B67E-4D1A-B878-B663109C9D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{776E6209-B67E-4D1A-B878-B663109C9D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{776E6209-B67E-4D1A-B878-B663109C9D57}.Release|Any CPU.Build.0 = Release|Any CPU
-		{227E25D5-58C6-4E6F-B363-32B6B118A40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{227E25D5-58C6-4E6F-B363-32B6B118A40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{227E25D5-58C6-4E6F-B363-32B6B118A40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{227E25D5-58C6-4E6F-B363-32B6B118A40A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

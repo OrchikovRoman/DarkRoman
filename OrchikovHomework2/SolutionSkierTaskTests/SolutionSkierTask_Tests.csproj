@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LibraryForSkierTask\LibraryForSkierTask.csproj">
-      <Project>{f2c9da39-2c88-4a94-9b6f-9db09bb4a773}</Project>
+      <Project>{55217958-072D-4DDC-9298-7D38CF9F6BD7}</Project>
       <Name>LibraryForSkierTask</Name>
     </ProjectReference>
   </ItemGroup>

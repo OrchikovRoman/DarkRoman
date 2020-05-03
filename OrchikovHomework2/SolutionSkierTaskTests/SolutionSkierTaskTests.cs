@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LibraryForSkierTask;
+using static LibraryForSkierTask.LibraryForSkierTask;
 
 namespace SolutionSkierTaskTests
 {
     [TestClass]
-    public class LibraryForSkierTaskTests
+    public class SolutionSkierTaskTests
     {
         private SolutionSkierTask _solutionSkierTask;
 
