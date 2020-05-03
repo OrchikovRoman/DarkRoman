@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace QuadraticEquationLibrary
 {
-    public static class QuadraticEquationKeeper
+    public class QuadraticEquationKeeper
     {
         public static List<string> Equations = new List<string>();
-        
+
         public static void Add(string equation)
         {
             Equations.Add(equation);
@@ -22,7 +22,7 @@ namespace QuadraticEquationLibrary
                 Console.WriteLine("================================");
                 Console.WriteLine(equation);
             }
-        }       
+        }
         public static void Delete(int target)
         {
             for (int i = 0; i < Equations.Count; ++i)
@@ -34,25 +34,27 @@ namespace QuadraticEquationLibrary
                 }
             }
         }
-
     }
-    public class QuadraticEquation
+    public class QuadraticEquation : IDisposable
     {
-        public double a;
-        public double b;
-        public double c;
-       
-        public QuadraticEquation(double a, double b, double c)
+        public double DiscriminantCalculation(double a, double b, double c)
         {
-            this.a = a;
-            this.b = b;
-            this.c = c;
+            CheckZeroNumbers(a);
+            CheckZeroNumbers(b);
+            CheckZeroNumbers(c);
+            double D = Math.Pow(b, 2) - 4 * a * c;
+            return D;
         }
-        public static void SolutionQuadraticEquation(double a, double b, double c)
+
+        public void RootCalculation(ref double a, ref double b, ref double c, out double x1, out double x2)
         {
-            double x1, x2;
+            CheckZeroNumbers(a);
+            CheckZeroNumbers(b);
+            CheckZeroNumbers(c);
+            x1 = x1 = 0;
+            x2 = x2 = 0;
             string quadEquation = "";
-            double D = Math.Pow(b, 2) - 4 * a * c; Console.WriteLine($"D={D}");
+            var D = DiscriminantCalculation(a, b, c);
             if (D > 0)
             {
                 x1 = (-b - (Math.Sqrt(D))) / (2 * a);
@@ -62,12 +64,21 @@ namespace QuadraticEquationLibrary
             else if (D == 0)
             {
                 x1 = (-b + (Math.Sqrt(D))) / (2 * a);
-                quadEquation=$"Roots of the equation: x1={x1} \nLinear factorization: {a}x^2+{b}x+{c}={a}(x-{x1:F1})\n";
-                
+                quadEquation = $"Roots of the equation: x1={x1} \nLinear factorization: {a}x^2+{b}x+{c}={a}(x-{x1:F1})\n";
             }
             else quadEquation = $"{a}x^2+{b}x+{c}=0 - The quadratic equation has no roots!\n";
-
             QuadraticEquationKeeper.Add(quadEquation.Replace("--", "+"));
+        }
+
+        public double CheckZeroNumbers(double num)
+        {
+            if (num == 0)
+                throw new Exception("Your number cannot be zero.");
+            return num;
+        }
+        public void Dispose()
+        {
+            //we are disposing it
         }
     }
 }

@@ -8,34 +8,50 @@ namespace LibraryForFizzBuzz
 {
     public class SolutionFizzBuzz
     {
-        private int startPoint;
-        private int finishPoint;
-        private int fizz;
-        private int buzz;
-        public int arraySize;
-        public string[] answerNum;
-
-        public SolutionFizzBuzz(int startPoint, int finishPoint, int fizz, int buzz)
+        public static void CheckFirstFinishPoint(ref int startPoint, ref int finishPoint)
         {
-            this.startPoint = startPoint;
-            this.finishPoint = finishPoint;
-            this.fizz = fizz;
-            this.buzz = buzz;
-        }
-
-        public static string[] Solution(int startPoint, int finishPoint, int fizz, int buzz, int arraySize)
-        {
-            arraySize = (finishPoint - startPoint)+1;
-            string[] answerNum = new string[arraySize];
-            for (int i = startPoint; i < answerNum.Length; i++)
+            if (startPoint >= finishPoint)
             {
-                var output = "";
-                if (i % fizz == 0 && i % buzz == 0) answerNum[i] = ("FizzBuzz");
-                else if (i % fizz == 0) answerNum[i] = ("Fizz");
-                else if (i % buzz == 0) answerNum[i] = ("Buzz");
-                else output = (answerNum[i]).ToString(); //I did not quite manage to understand this before the deadline, please explain, I would be very grateful for this piece of knowledge.
+                var number = finishPoint;
+
+                finishPoint = startPoint;
+
+                startPoint = number;
             }
-            return answerNum; 
+        }
+        public static void Solution(FizzBuzzModel fizzBuzz)
+        {   
+            var startPoint = fizzBuzz.startPoint;
+            var finishPoint = fizzBuzz.finishPoint;
+            var fizz = fizzBuzz.fizz;
+            var buzz = fizzBuzz.buzz;
+            var firstResult = fizzBuzz.firstDescription;
+            var secondResult = fizzBuzz.secondDescription;
+
+            CheckFirstFinishPoint(ref startPoint, ref finishPoint);
+
+            for (;  startPoint <= finishPoint; startPoint++)
+            {
+                string definition = "";
+
+                if (startPoint % fizz == 0 
+                    || startPoint % buzz == 0 
+                    || (startPoint % (fizz * buzz) == 0))
+                {
+                    if (startPoint % (fizz * buzz) == 0)
+                        definition = firstResult + secondResult;
+                    
+                    else if (startPoint % fizz == 0)
+                        definition = firstResult;
+
+                    else if (startPoint % buzz == 0)
+                        definition = secondResult;
+                    
+                    Console.WriteLine(definition);
+                }
+                else
+                    Console.WriteLine(startPoint.ToString());
+            }
         }
     }
 }

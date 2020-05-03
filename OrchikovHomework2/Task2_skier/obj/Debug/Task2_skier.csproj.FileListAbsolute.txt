@@ -8,3 +8,12 @@ C:\Users\Orchikov\source\repos\OrchikovHomework2\Task2_skier\bin\Debug\LibraryFo
 C:\Users\Orchikov\source\repos\OrchikovHomework2\Task2_skier\obj\Debug\Task2_skier.csproj.CopyComplete
 C:\Users\Orchikov\source\repos\OrchikovHomework2\Task2_skier\obj\Debug\Task2_skier.exe
 C:\Users\Orchikov\source\repos\OrchikovHomework2\Task2_skier\obj\Debug\Task2_skier.pdb
+E:\Autotest\OrchikovHomework2\Task2_skier\bin\Debug\Task2_skier.exe.config
+E:\Autotest\OrchikovHomework2\Task2_skier\bin\Debug\Task2_skier.exe
+E:\Autotest\OrchikovHomework2\Task2_skier\bin\Debug\Task2_skier.pdb
+E:\Autotest\OrchikovHomework2\Task2_skier\bin\Debug\LibraryForSkierTask.dll
+E:\Autotest\OrchikovHomework2\Task2_skier\bin\Debug\LibraryForSkierTask.pdb
+E:\Autotest\OrchikovHomework2\Task2_skier\obj\Debug\Task2_skier.csprojAssemblyReference.cache
+E:\Autotest\OrchikovHomework2\Task2_skier\obj\Debug\Task2_skier.csproj.CopyComplete
+E:\Autotest\OrchikovHomework2\Task2_skier\obj\Debug\Task2_skier.exe
+E:\Autotest\OrchikovHomework2\Task2_skier\obj\Debug\Task2_skier.pdb

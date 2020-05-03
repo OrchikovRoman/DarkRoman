@@ -9,24 +9,25 @@ namespace HomeWork1v2
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             ConsoleStart();
             ConsoleMenu();
-
         }
-        static void ConsoleStart()
+        public static void ConsoleStart()
         {
             Console.WriteLine("============================================================");
             Console.WriteLine("====I WELCOME YOU IN THE APP OF A QUADRATIC EQUATION========");
             Console.WriteLine("============================================================");
         }
-        static void ConsoleMenu()
+        public static void ConsoleMenu()
         {
 
             bool isMenu = true;
             while (isMenu)
             {
+                var _qudraticEquation = new QuadraticEquation();
                 Console.WriteLine("\n<Press 1>: View quadratic equations\n");
                 Console.WriteLine("<Press 2>: Create a new quadratic equation\n");
                 Console.WriteLine("<Press 3>: To remove a qudratic equation\n");
@@ -35,12 +36,14 @@ namespace HomeWork1v2
                 switch (Console.ReadKey().Key)
                 {
                     case ConsoleKey.D1:
+                        Console.Clear();
                         Console.WriteLine(" = Good choice!\n");
                         Console.WriteLine("============================================================");
                         QuadraticEquationKeeper.PrintQuadraticEquation();
                         break;
 
                     case ConsoleKey.D2:
+                        Console.Clear();
                         Console.WriteLine(" = Good choice!\n");
                         Console.WriteLine("============================================================");
                         Console.WriteLine("Enter parameter a: ");
@@ -49,11 +52,13 @@ namespace HomeWork1v2
                         double b = InputCheck();
                         Console.WriteLine("Enter parameter c: ");
                         double c = InputCheck();
-                        var quadraticEquationNew = new QuadraticEquation(a,b,c);
-                        QuadraticEquation.SolutionQuadraticEquation(a, b, c);
+                        double x1, x2;
+                        _qudraticEquation.DiscriminantCalculation(a, b, c);
+                        _qudraticEquation.RootCalculation(ref a, ref b, ref c, out x1, out x2);
                         break;
 
                     case ConsoleKey.D3:
+                        Console.Clear();
                         Console.WriteLine(" = Selected! Now you are on the dark side! \n");
                         Console.WriteLine("============================================================");
                         Console.WriteLine("Enter the number of the selected array you are going to break down into molecules: ");
@@ -71,7 +76,7 @@ namespace HomeWork1v2
                 }
             }
         }
-        static int InputCheck()
+        public static int InputCheck()
         {
             int number;
             while (!int.TryParse(Console.ReadLine(), out number))

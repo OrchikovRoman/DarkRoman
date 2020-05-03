@@ -12,36 +12,53 @@ namespace OrchikovHomework2
         static void Main(string[] args)
         {
             int startPoint, finishPoint, fizz, buzz;
+            
             Console.WriteLine("Please enter the beginning of a number border: ");
             while (!int.TryParse(Console.ReadLine(), out startPoint))
             {
                 Console.WriteLine("Input Error! Insert the number");
             }
+            
             Console.WriteLine("Please enter the end of the number border: ");
             while (!int.TryParse(Console.ReadLine(), out finishPoint))
             {
                 Console.WriteLine("Input Error! Insert the number");
             }
+            
             Console.WriteLine("Enter the Fizz prime number: ");
-            while (!int.TryParse(Console.ReadLine(), out fizz)) 
-            {   
+            while (!int.TryParse(Console.ReadLine(), out fizz))
+            {
                 Console.WriteLine("Input Error! Insert the number");
             }
+
             Console.WriteLine("Enter the Buzz prime number: ");
             while (!int.TryParse(Console.ReadLine(), out buzz))
             {
                 Console.WriteLine("Input Error! Insert the number");
             }
 
-            LibraryForFizzBuzz.SolutionFizzBuzz result = new SolutionFizzBuzz(startPoint, finishPoint, fizz, buzz);
-            string[] answer = SolutionFizzBuzz.Solution(startPoint,finishPoint,fizz,buzz,result.arraySize);
+            Console.WriteLine("Enter the description for \"fizz\"");
 
-            for (int i = 0; i < answer.Length; i++)
+            string firstDescription = Console.ReadLine();
+            Console.WriteLine("Enter the description for \"buzz\"");
+            string secondDescription = Console.ReadLine();
+
+
+
+            var model = new FizzBuzzModel()
             {
-                Console.WriteLine("{0}\n", answer[i]);
-            }
+                startPoint = startPoint,
+                finishPoint = finishPoint,
+                fizz = fizz,
+                buzz = buzz,
+                firstDescription = firstDescription,
+                secondDescription=secondDescription,
+            };
+
+            SolutionFizzBuzz.Solution(model);
+
             Console.ReadKey();
-        } 
-        
+        }
+
     }
 }

@@ -4,3 +4,8 @@ C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary
 C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.dll
 C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.pdb
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\QuadraticEquationLibrary\bin\Debug\QuadraticEquationLibrary.dll
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\QuadraticEquationLibrary\bin\Debug\QuadraticEquationLibrary.pdb
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.dll
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.pdb
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\QuadraticEquationLibrary\obj\Debug\QuadraticEquationLibrary.csprojAssemblyReference.cache

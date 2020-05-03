@@ -8,24 +8,24 @@ using System.Threading.Tasks;
 namespace LibraryForSkierTask
 {
 
-    public class SolutionSkierTask
+    public class SolutionSkierTask : IDisposable
     {
-        private double distX;  //норматив пробежки
-        private double growthY;  //Процент прироста %
-        private double targetZ;  //Цель километров
-        public double sumOfPrevios; //сумарная дистанция км предидущих дней
-        public double sumOfDays;  //сумма дней
-
-        public SolutionSkierTask(double distX, double growthY, double targetZ)
+        public void Dispose()
         {
-            this.distX = distX;
-            this.growthY = growthY;
-            this.targetZ = targetZ;
+            //we are disposing it
         }
-        public static double Solution(double distX, double growthY, double targetZ, double sumOfPrevious, double sumOfDays)
+
+        public double Solution(double distX, double growthY, double targetZ)
         {
-            sumOfPrevious = 0;
-            sumOfDays = 1;
+            
+            if(growthY==0)
+                return 0;
+
+            if (targetZ <= 0 || growthY <= 0)
+                return 0;
+
+            double sumOfPrevious = 0;
+            double sumOfDays = 1;
            
             do
             {

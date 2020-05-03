@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LibraryForFizzBuzz">
-      <HintPath>..\LibraryForFizzBuzz\bin\Debug\LibraryForFizzBuzz.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryForFizzBuzz\LibraryForFizzBuzz.csproj">
+      <Project>{933a911e-931c-431d-8c7b-e0fc5354c6c5}</Project>
+      <Name>LibraryForFizzBuzz</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,3 +8,12 @@ C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\
 C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\QuadraticEquationLibrary.pdb
 C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.csprojAssemblyReference.cache
 C:\Users\Orchikov\source\repos\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.csproj.CopyComplete
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\HomeWork1v2.0.exe.config
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\HomeWork1v2.0.exe
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\HomeWork1v2.0.pdb
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\QuadraticEquationLibrary.dll
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\bin\Debug\QuadraticEquationLibrary.pdb
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.csprojAssemblyReference.cache
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.csproj.CopyComplete
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.exe
+E:\Autotest\HomeWork1v2\QuadraticEquationLibrary\HomeWork1v2.0\obj\Debug\HomeWork1v2.0.pdb

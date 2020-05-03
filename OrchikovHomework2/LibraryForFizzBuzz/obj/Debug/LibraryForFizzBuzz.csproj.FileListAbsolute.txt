@@ -4,3 +4,7 @@ C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\bin\Debug\Li
 C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.dll
 C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.pdb
 C:\Users\Orchikov\source\repos\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.csprojAssemblyReference.cache
+E:\Autotest\OrchikovHomework2\LibraryForFizzBuzz\bin\Debug\LibraryForFizzBuzz.dll
+E:\Autotest\OrchikovHomework2\LibraryForFizzBuzz\bin\Debug\LibraryForFizzBuzz.pdb
+E:\Autotest\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.dll
+E:\Autotest\OrchikovHomework2\LibraryForFizzBuzz\obj\Debug\LibraryForFizzBuzz.pdb
