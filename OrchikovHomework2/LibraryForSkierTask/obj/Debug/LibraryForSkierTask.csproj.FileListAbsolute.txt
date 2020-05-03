@@ -1,5 +1,0 @@
-E:\Autotest\OrchikovHomework2\LibraryForSkierTask\bin\Debug\LibraryForSkierTask.dll
-E:\Autotest\OrchikovHomework2\LibraryForSkierTask\bin\Debug\LibraryForSkierTask.pdb
-E:\Autotest\OrchikovHomework2\LibraryForSkierTask\obj\Debug\LibraryForSkierTask.csprojAssemblyReference.cache
-E:\Autotest\OrchikovHomework2\LibraryForSkierTask\obj\Debug\LibraryForSkierTask.dll
-E:\Autotest\OrchikovHomework2\LibraryForSkierTask\obj\Debug\LibraryForSkierTask.pdb
