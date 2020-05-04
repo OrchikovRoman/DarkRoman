@@ -1,5 +1,7 @@
 using NUnit.Framework;
 using SkierLibrary;
+using System;
+using System.Collections;
 
 namespace NUnitTestSolutionSkierTests
 {
@@ -12,18 +14,48 @@ namespace NUnitTestSolutionSkierTests
             _solutionSkier = new SolutionSkier();
         }
 
-        [TestCase (1,2,100, 101)]
+        [Test]
+        [TestCaseSource(typeof(MyFactoryClass), "TestCases")]
+        public double NUnitSolutionSkier(double distX, double growthY, double targetZ)
+        {
+            double result = default(double);
+            Assert.DoesNotThrow(() =>
+            {
+                result = _solutionSkier.Solution(distX, growthY, targetZ);
+            });
+            return result;
+        }
+
+        [TestCase(1, 2, 100, 101)]
         [TestCase(10, 1, 100, 87)]
-        [TestCase(0, 1, 100, 103)]
+        [TestCase(0, 1, 100, 0)]
         [TestCase(0, 0, 100, 0)]
-        [TestCase(0, 5, 20, 23)]
+        [TestCase(0, 5, 20, 0)]
         [TestCase(0, 0, 0, 0)]
-        [TestCase(-1, 2, 100, 105)]
+        [TestCase(-1, 2, 100, 0)]
         [TestCase(1, -2, 100, 0)]
-        public void NUnitSolutionSkier(double distX, double growthY, double targetZ, double expected)
+        public void NUnitSolutionSkierTestCases(double distX, double growthY, double targetZ, double expected)
         {
             double result = _solutionSkier.Solution(distX, growthY, targetZ);
             Assert.AreEqual(expected, result);
+        }
+    }
+
+    public class MyFactoryClass
+    {
+        public static IEnumerable TestCases
+        {
+            get
+            {
+                yield return new TestCaseData(1, 2, 100).Returns(101);
+                yield return new TestCaseData(10, 1, 100).Returns(87);
+                yield return new TestCaseData(0, 1, 100).Returns(0);
+                yield return new TestCaseData(0, 0, 100).Returns(0);
+                yield return new TestCaseData(0, 5, 20).Returns(0);
+                yield return new TestCaseData(0, 0, 0).Returns(0);
+                yield return new TestCaseData(-1, 2, 100).Returns(0);
+                yield return new TestCaseData(1, -2, 100).Returns(0);
+            }
         }
     }
 }

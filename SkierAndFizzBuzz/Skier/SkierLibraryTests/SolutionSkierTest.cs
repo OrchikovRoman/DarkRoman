@@ -61,7 +61,7 @@ namespace SkierLibraryTests
             //2.Execution
             double result = _solutionSkier.Solution(distX, growthY, targetZ);
             //3.Assertion
-            Assert.AreEqual(103, result);
+            Assert.AreEqual(0, result);
         }
 
         [TestMethod]
@@ -87,7 +87,7 @@ namespace SkierLibraryTests
             //2.Execution
             double result = _solutionSkier.Solution(distX, growthY, targetZ);
             //3.Assertion
-            Assert.AreEqual(23, result);
+            Assert.AreEqual(0, result);
         }
         [TestMethod]
         public void SolutionSkier_Test_0_0_0()
@@ -112,7 +112,7 @@ namespace SkierLibraryTests
             //2.Execution
             double result = _solutionSkier.Solution(distX, growthY, targetZ);
             //3.Assertion
-            Assert.AreEqual(105, result);
+            Assert.AreEqual(0, result);
         }
 
         [TestMethod]

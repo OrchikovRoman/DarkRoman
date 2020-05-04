@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using QuadraticEquationLibrary;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -21,7 +22,7 @@ namespace NUnitTestQuadraticEquationLibraryTests
         [TestCase(1, 1, 10, 0,0)]
         [TestCase(10, 1, 1, 0, 0)]
         [TestCase(1, 10, 1, -9.898979485566356, -0.10102051443364424)]
-        public void NUnitRootsCalculation_Test(double a, double b, double c, double expX1, double expX2)
+        public void NUnitRootsCalculation_TestCases(double a, double b, double c, double expX1, double expX2)
         {
             double x1, x2;
             _solutionQuadraticEquation.RootCalculation(ref a, ref b, ref c, out x1, out x2);

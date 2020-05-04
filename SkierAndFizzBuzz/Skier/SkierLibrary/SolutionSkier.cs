@@ -1,4 +1,5 @@
 ﻿using System;
+using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,24 +16,41 @@ namespace SkierLibrary
 
         public double Solution(double distX, double growthY, double targetZ)
         {
-
-            if (growthY == 0)
-                return 0;
-
-            if (targetZ <= 0 || growthY <= 0)
-                return 0;
-
-            double sumOfPrevious = 0;
-            double sumOfDays = 1;
-
-            do
+            if (Validator(distX, growthY, targetZ))
             {
-                sumOfPrevious = sumOfDays + distX;
-                distX = distX * (1 + (growthY / 100));
-                sumOfDays = sumOfDays + 2;
+                double sumOfPrevious = 0;
+                double sumOfDays = 1;
+
+                do
+                {
+                    sumOfPrevious = sumOfDays + distX;
+                    distX = distX * (1 + (growthY / 100));
+                    sumOfDays = sumOfDays + 2;
+                }
+                while (sumOfPrevious < targetZ);
+                return sumOfDays;
             }
-            while (sumOfPrevious < targetZ);
-            return sumOfDays;
+            return 0;
+        }
+
+        public bool Validator(double distX, double growthY, double targetZ)
+        {
+            if (growthY < 0)
+            {
+                Console.WriteLine("Growth Y cannot be negative");
+                return false;
+            }
+            if (distX <= 0 || targetZ <= 0)
+            {
+                Console.WriteLine("Enter the number > 0");
+                return false;
+            }
+            if (distX > targetZ)
+            {
+                Console.WriteLine("Please enter the distance X > target distance");
+                return false;
+            }
+            return true;
         }
     }
 }

@@ -28,7 +28,6 @@ namespace Skier
             {
                 Console.WriteLine("Input Error! Insert the number");
             }
-            
 
             var result = new SolutionSkier();
             var answer =  result.Solution(distX, growthY, targetZ);
@@ -36,5 +35,7 @@ namespace Skier
             Console.WriteLine("The skier will reach the goal {0} on the {1} day", targetZ, answer);
             Console.ReadKey();
         }
+
+       
     }
 }
