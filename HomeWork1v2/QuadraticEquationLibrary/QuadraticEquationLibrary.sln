@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork1v2.0", "HomeWork1v
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation_Tests", "QuadraticEquation_Tests\QuadraticEquation_Tests.csproj", "{3253EB9D-7519-4DFF-91A6-AC36D73A4B01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestQuadraticEquationLibraryTests", "NUnitTestQuadraticEquationLibraryTests\NUnitTestQuadraticEquationLibraryTests.csproj", "{575D229E-0B7B-47CD-8866-1E68B2622A8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3253EB9D-7519-4DFF-91A6-AC36D73A4B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3253EB9D-7519-4DFF-91A6-AC36D73A4B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3253EB9D-7519-4DFF-91A6-AC36D73A4B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575D229E-0B7B-47CD-8866-1E68B2622A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575D229E-0B7B-47CD-8866-1E68B2622A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575D229E-0B7B-47CD-8866-1E68B2622A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575D229E-0B7B-47CD-8866-1E68B2622A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

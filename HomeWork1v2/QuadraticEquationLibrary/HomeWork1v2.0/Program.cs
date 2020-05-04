@@ -23,7 +23,6 @@ namespace HomeWork1v2
         }
         public static void ConsoleMenu()
         {
-
             bool isMenu = true;
             while (isMenu)
             {
